@@ -5,7 +5,7 @@
 
    export const SearchUserData = async ({data}) => {
         const response = await fetch(
-          `http://localhost:3001/users/search`,
+          `https://picturesque-api.onrender.com/users/search`,
           {
             method: "POST",
             // headers: {
